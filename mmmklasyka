@@ -1,0 +1,98 @@
+{
+  "name":"Mmm Klasyka",
+  "location":"ul. Hakerska 5, Warszawa",
+  "soups": [
+      {
+        "name":"Serowa",
+        "price":15,
+        "available":true,
+        "ingredients":["woda","serek topiony","makaron","marchew","przyprawy", "śmietana"],
+        "description":"Gęsta zupa serowa idealna na zimne dni"
+      },
+      {
+        "name":"Rosół z kury",
+        "price":13,
+        "available":true,
+        "ingredients":["woda","mięso drobiowe","makaron","marchew","przyprawy"],
+        "description":"Rosół jak u babci, kurka z wolnego wybiegu, marchewka z pola, mniam mniam"
+      },
+      {
+        "name":"Barszcz czerwony z uszkami",
+        "price":11,
+        "available":true,
+        "ingredients":["woda","buraki","przyprawy","mąka","woda","sól","mięso wieprzowe"],
+        "description":"Przepyszny barszczyk z uszkami rozgrzeje podniebienie strudzonego wędrowca"
+      }
+    ],
+    "mains": [
+      {
+        "name":"Kotlet schabowy, frytki, zestaw surówek",
+        "price":19,
+        "available":true,
+        "ingredients":["kotlet", "ziemniaki", "surówka"],
+        "description":"Kotlet ze świeżo ubitego prosiaka, ziemniaki świeżo kopane, surówka = kapusta"
+      },
+      {
+        "name":"Bigos",
+        "price":18,
+        "available":true,
+        "ingredients":["kapusta","kiełbasa zwyczajna","koncentrat pomidorowy","mąka","smalec"],
+        "description":"Klasyczny sycący bigos z młodej kapusty"
+      },
+      {
+        "name":"Pulpety w sosie grzybowym z kaszą gryczaną",
+        "price":22,
+        "available":true,
+        "ingredients":["mięso wołowe","kasza gryczana","mąka","śmietana","pieczarki"],
+        "description":"Okrągklutkie pulpeciki - zjedzą dziewki i chłopczyki"
+      }
+    ],
+    "desserts": [
+      {
+        "name":"Rurka z kremem",
+        "price":8,
+        "available":true,
+        "ingredients":["ciasto francuskie","bita śmietana"],
+        "description":"Rurka z bitą śmietaną w klasycznej odsłonie"
+      },
+      {
+        "name":"Beza z musem truskawkowym",
+        "price":6,
+        "available":true,
+        "ingredients":["białko jaja kurzego","cukier","truskawki"],
+        "description":"Delikatna beza przełożona musem truskawkowym"
+      },
+      {
+        "name":"Keks",
+        "price":4,
+        "available":true,
+        "ingredients":["mąka","cukier","jajka kurze","mleko","bakalie"],
+        "description":"Ciastko ze wszystkimi składnikami, które uda się znaleźć w jesiennym sadzie"
+      }
+    ],
+    "sodas": [
+      {
+        "name":"Kawa",
+        "price":5,
+        "available":true,
+        "ingredients":["kawa czarna","woda"],
+        "description":"Taka kawa postawi na nogi nawet największego śpiocha"
+      }
+      ,
+      {
+              "name":"Kompot porzeczkowy",
+              "price":5,
+              "available":true,
+              "ingredients":["sok z czarnych porzeczek","sok z czerwonych porzeczek","woda"],
+              "description":"Kompot z czarnych i czerwonych porzeczek to doskonała opcja na orzeźwiający i smaczny napój"
+            },
+            {
+              "name":"Piwo",
+              "price":2,
+              "available":true,
+              "ingredients":["Piwo jasne"],
+              "description":"Znakomite do każdego dania"
+            }
+    ]
+
+}

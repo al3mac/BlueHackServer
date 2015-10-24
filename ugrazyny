@@ -1,0 +1,98 @@
+{
+  "name":"U Grażyny",
+  "location":"ul. Janusza Biznesu 3/4, Warszawa",
+  "Menu": {
+    "Zupy": [
+      {
+        "name":"Ogórkowa",
+        "price":12,
+        "available":true,
+        "ingredients":["woda","pomidory","makaron","marchew","przyprawy"],
+        "description":"Przepyszna zupa na swojskich ogórkach"
+      },
+      {
+        "name":"Pomidorowa",
+        "price":10,
+        "available":false,
+        "ingredients":["woda","ogórki kiszone","ziemniaki","marchew","przyprawy"],
+        "description":"Takiej pysznej pomidorowej nigdy nie jadłeś"
+      },
+      {
+        "name":"Krupnik",
+        "price":11,
+        "available":true,
+        "ingredients":["woda","kasza","ziemniaki","marchew","przyprawy"],
+        "description":"Krupnik jaki jest każdy widzi"
+      }
+    ],
+    "Główne": [
+      {
+        "name":"Kotlet mielony, ziemniaki, surówka",
+        "price":19,
+        "available":true,
+        "ingredients":["kotlet", "ziemniaki", "surówka"],
+        "description":"Kotlet ze świeżo ubitego prosiaka, ziemniaki świeżo kopane, surówka = kapusta"
+      },
+      {
+        "name":"Tortilla meksykańska",
+        "price":18,
+        "available":true,
+        "ingredients":["tortilla","kukurydza","majonez","ketchup","fasola czerwona","kapusta"],
+        "description":"Tortilla w klasycznej odsłonie, przygotowana na podstawie przepisu babci Juana"
+      },
+      {
+        "name":"Zrazy wołowe z frytkami",
+        "price":22,
+        "available":false,
+        "ingredients":["mięso wołowe","frytki bezglutenowe","sos ciemny"],
+        "description":"Rzeźnik płakał jak ciął cielaka"
+      }
+    ],
+    "Desery": [
+      {
+        "name":"Deser lodowy",
+        "price":8,
+        "available":true,
+        "ingredients":["lody waniliowe","lody czekoladowe","lody truskawkowe","posypka z orzechów włoskich"],
+        "description":"Lody przygotowywane na bazie prawdziwego mleka, owoców i czekolady"
+      },
+      {
+        "name":"Gofr",
+        "price":6,
+        "available":true,
+        "ingredients":["woda","mąka","mleko","bita śmietana","polewa czekoladowa"],
+        "description":"Pyszny chrupiący gofr z bitą śmietaną i polewą z czekolady deserowej"
+      },
+      {
+        "name":"Ciasto sezonowe",
+        "price":4,
+        "available":true,
+        "ingredients":["ciasto francuskie","dżem truskawkowy","orzechy laskowe","kakao"],
+        "description":"Ciastko ze wszystkimi składnikami, które uda się znaleźć w jesiennym sadzie"
+      }
+    ],
+    "Napoje": [
+      {
+        "name":"Cola",
+        "pice":5,
+        "available":true,
+        "ingredients":["Coca-Cola"],
+        "description":"Cola prosto z puszki"
+      },
+      {
+        "name":"Sok pomarańczowy",
+        "price":5,
+        "available":true,
+        "ingredients":["sok pomarańczowy 100%"],
+        "descrption":"Sok ze świeżo wyciśniętych pomarańczy"
+      },
+      {
+        "name":"Wódka",
+        "price":2,
+        "available":true,
+        "ingredients":["Wódka wyborowa"],
+        "description":"Klasyka gatunku w schłodzonym kieliszku"
+      }
+    ]
+  }
+}
