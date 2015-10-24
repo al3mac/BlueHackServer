@@ -1,6 +1,7 @@
 {
   "name":"Mmm Klasyka",
   "location":"ul. Hakerska 5, Warszawa",
+  "menu":{
   "soups": [
       {
         "name":"Serowa",
@@ -94,5 +95,5 @@
               "description":"Znakomite do każdego dania"
             }
     ]
-
+    }
 }
