@@ -8,21 +8,24 @@
         "price":15,
         "available":true,
         "ingredients":["woda","serek topiony","makaron","marchew","przyprawy", "śmietana"],
-        "description":"Gęsta zupa serowa idealna na zimne dni"
+        "description":"Gęsta zupa serowa idealna na zimne dni",
+        "filename":"serowa"
       },
       {
         "name":"Rosół z kury",
         "price":13,
         "available":true,
         "ingredients":["woda","mięso drobiowe","makaron","marchew","przyprawy"],
-        "description":"Rosół jak u babci, kurka z wolnego wybiegu, marchewka z pola, mniam mniam"
+        "description":"Rosół jak u babci, kurka z wolnego wybiegu, marchewka z pola, mniam mniam",
+        "filename":"rosol"
       },
       {
         "name":"Barszcz czerwony z uszkami",
         "price":11,
         "available":true,
         "ingredients":["woda","buraki","przyprawy","mąka","woda","sól","mięso wieprzowe"],
-        "description":"Przepyszny barszczyk z uszkami rozgrzeje podniebienie strudzonego wędrowca"
+        "description":"Przepyszny barszczyk z uszkami rozgrzeje podniebienie strudzonego wędrowca",
+        "filename":"barszcz"
       }
     ],
     "mains": [
@@ -31,21 +34,24 @@
         "price":19,
         "available":true,
         "ingredients":["kotlet", "ziemniaki", "surówka"],
-        "description":"Kotlet ze świeżo ubitego prosiaka, ziemniaki świeżo kopane, surówka = kapusta"
+        "description":"Kotlet ze świeżo ubitego prosiaka, ziemniaki świeżo kopane, surówka = kapusta",
+        "filename":"schabowy"
       },
       {
         "name":"Bigos",
         "price":18,
         "available":true,
         "ingredients":["kapusta","kiełbasa zwyczajna","koncentrat pomidorowy","mąka","smalec"],
-        "description":"Klasyczny sycący bigos z młodej kapusty"
+        "description":"Klasyczny sycący bigos z młodej kapusty",
+        "filename":"bigos"
       },
       {
         "name":"Pulpety w sosie grzybowym z kaszą gryczaną",
         "price":22,
         "available":true,
         "ingredients":["mięso wołowe","kasza gryczana","mąka","śmietana","pieczarki"],
-        "description":"Okrągklutkie pulpeciki - zjedzą dziewki i chłopczyki"
+        "description":"Okrągklutkie pulpeciki - zjedzą dziewki i chłopczyki",
+        "filename":"pulpety"
       }
     ],
     "desserts": [
@@ -54,21 +60,24 @@
         "price":8,
         "available":true,
         "ingredients":["ciasto francuskie","bita śmietana"],
-        "description":"Rurka z bitą śmietaną w klasycznej odsłonie"
+        "description":"Rurka z bitą śmietaną w klasycznej odsłonie",
+        "filename":"rurka"
       },
       {
         "name":"Beza z musem truskawkowym",
         "price":6,
         "available":true,
         "ingredients":["białko jaja kurzego","cukier","truskawki"],
-        "description":"Delikatna beza przełożona musem truskawkowym"
+        "description":"Delikatna beza przełożona musem truskawkowym",
+        "filename":"beza"
       },
       {
         "name":"Keks",
         "price":4,
         "available":true,
         "ingredients":["mąka","cukier","jajka kurze","mleko","bakalie"],
-        "description":"Ciastko ze wszystkimi składnikami, które uda się znaleźć w jesiennym sadzie"
+        "description":"Ciastko ze wszystkimi składnikami, które uda się znaleźć w jesiennym sadzie",
+        "filename":"keks"
       }
     ],
     "sodas": [
@@ -77,7 +86,8 @@
         "price":5,
         "available":true,
         "ingredients":["kawa czarna","woda"],
-        "description":"Taka kawa postawi na nogi nawet największego śpiocha"
+        "description":"Taka kawa postawi na nogi nawet największego śpiocha",
+        "filename":"kawa"
       }
       ,
       {
@@ -85,14 +95,16 @@
               "price":5,
               "available":true,
               "ingredients":["sok z czarnych porzeczek","sok z czerwonych porzeczek","woda"],
-              "description":"Kompot z czarnych i czerwonych porzeczek to doskonała opcja na orzeźwiający i smaczny napój"
+              "description":"Kompot z czarnych i czerwonych porzeczek to doskonała opcja na orzeźwiający i smaczny napój",
+              "filename":"kompot"
             },
             {
               "name":"Piwo",
               "price":2,
               "available":true,
               "ingredients":["Piwo jasne"],
-              "description":"Znakomite do każdego dania"
+              "description":"Znakomite do każdego dania",
+              "filename":"piwo"
             }
     ]
     }
