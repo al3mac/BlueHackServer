@@ -45,6 +45,31 @@ server.route({
     handler: getMenu
 });
 
+server.route({
+    method: 'POST',
+    path: '/api/getSoups',
+    handler: getSoups
+});
+
+server.route({
+    method: 'POST',
+    path: '/api/getDesserts',
+    handler: getDesserts
+});
+
+server.route({
+    method: 'POST',
+    path: '/api/getSodas',
+    handler: getSodas
+});
+
+server.route({
+    method: 'POST',
+    path: '/api/getMains',
+    handler: getMains
+});
+
+
 function getMenu(request, reply){
 
     fs = require('fs')
@@ -57,6 +82,57 @@ function getMenu(request, reply){
         reply(JSON.parse(data))
     });
 
+}
 
+function getSodas(request, reply) {
 
+    fs = require('fs')
+    fs.readFile(request.payload.restaurantName, 'utf8', function (err, data) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log(data);
+        var menu = JSON.parse(data)
+        reply(menu.menu.sodas)
+    });
+}
+
+function getMains(request, reply) {
+
+    fs = require('fs')
+    fs.readFile(request.payload.restaurantName, 'utf8', function (err, data) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log(data);
+        var menu = JSON.parse(data)
+        reply(menu.menu.mains)
+    });
+}
+
+function getDesserts(request, reply) {
+
+    fs = require('fs')
+    fs.readFile(request.payload.restaurantName, 'utf8', function (err, data) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log(data);
+        var menu = JSON.parse(data)
+        reply(menu.menu.desserts)
+    });
+}
+
+function getSoups(request, reply) {
+
+    fs = require('fs')
+    fs.readFile(request.payload.restaurantName, 'utf8', function (err, data) {
+        if (err) {
+            return console.log(err);
+        }
+
+        var menu = JSON.parse(data);
+        console.log(menu.menu.soups);
+        reply(menu.menu.soups)
+    });
 }
