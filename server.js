@@ -69,6 +69,21 @@ server.route({
     handler: getMains
 });
 
+server.route({
+    method: 'POST',
+    path: '/api/postOrder',
+    handler: getCart
+});
+
+function getCart(request, reply){
+    console.log(request)
+    reply(
+        {
+            "result":"ok",
+            "waiterName":"Andrzej"
+        }
+    )
+}
 
 function getMenu(request, reply){
 
@@ -77,7 +92,6 @@ function getMenu(request, reply){
         if (err) {
             return console.log(err);
         }
-        console.log(data);
 
         reply(JSON.parse(data))
     });
@@ -91,7 +105,6 @@ function getSodas(request, reply) {
         if (err) {
             return console.log(err);
         }
-        console.log(data);
         var menu = JSON.parse(data)
         reply(menu.menu.sodas)
     });
@@ -104,7 +117,6 @@ function getMains(request, reply) {
         if (err) {
             return console.log(err);
         }
-        console.log(data);
         var menu = JSON.parse(data)
         reply(menu.menu.mains)
     });
@@ -117,7 +129,6 @@ function getDesserts(request, reply) {
         if (err) {
             return console.log(err);
         }
-        console.log(data);
         var menu = JSON.parse(data)
         reply(menu.menu.desserts)
     });
