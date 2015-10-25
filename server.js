@@ -76,7 +76,7 @@ server.route({
 });
 
 function getCart(request, reply){
-    console.log(request)
+    console.log(request.payload)
     reply(
         {
             "result":"ok",
